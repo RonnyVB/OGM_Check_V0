@@ -1,0 +1,15 @@
+﻿<Window x:Class="OGM_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:OGM_WPF"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="170" Width="831.991" Loaded="Window_Loaded">
+    <StackPanel>
+        <Label x:Name="lblGMededeling" Content="Gestructureerde Mededeling (OGM)" Margin="15" FontSize="20"/>
+        <TextBox x:Name="txtGMededeling" MaxLength="12" Height="40" Margin="15" FontSize="30" TextAlignment="Center" TextChanged="txtGMededeling_TextChanged" />
+    </StackPanel>
+</Window>
